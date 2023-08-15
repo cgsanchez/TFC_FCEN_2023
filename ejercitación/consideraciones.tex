@@ -1,0 +1,59 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs} 
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks = true,
+    allcolors = blue
+}
+
+\begin{document}
+\title{Taller de Física Computacional}
+
+\author{Cristián G. Sánchez}
+
+\date{\today}
+
+\maketitle
+
+\section*{Consideraciones generales sobre la ejercitación}
+
+Aquí escribo una serie de recomendaciones que quedan en esta guía escritas pero valen para todas las guías. Estos ejercicios no están pensados para que sean fáciles. Requieren pensar y darle vueltas a las cosas hasta que aparece una idea. Implementar esa idea y probarla. Ver que es lo que no funciona. Determinar porqué no funciona. Corregir, enjuagar y repetir. Y así hasta que salgan.
+
+El presente curso está pensado para hacer gimnasia mental y aprender {\bf haciendo}. Es muy importante la perseverancia. Quizás ya se han encontrado ejercicios así antes, pero no es usual en las carreras de grado, porque los docentes somos perezosos y nos es mas fácil hacer que nuestros alumnos naden las aguas poco profundas en las que nosotros hacemos pie. 
+
+Una última cosa, la mayor parte de las veces, como pasa en la vida, con lo que está escrito aquí no alcanza. Utilicen los recursos que consideren necesarios para resolver los ejercicios. Esto incluye bibliografía, web (!considerá con criterio qué fuentes usás¡), etc.. Y por sobre todo {\bf pregunten}. Estoy acá para acompañarlos a transitar este entrenamiento más como {\em coach} que como docente.
+
+La mayor parte de las consignas empiezan con ``Escriba una función que \ldots ''. En todos los casos la función debe estar implementada en un programa (o {\em notebook}) que la pruebe para un caso o grupo de casos dependiendo del ejercicio y compruebe que funcione correctamente. Si bien al inicio del curso no espero que el código posea manejo de errores y casos ``de borde'', a medida que avancemos eso será necesario cuando armemos programas más complejos.
+
+Recomiendo utilizar un paradigma funcional (a no ser que sean muy fanáticos de los objetos). Eso tiene que ver con una opinión filosófica personal que podemos discutir.
+
+Para no repetir esto en todas las guías lo aclaro aquí:
+
+\begin{itemize}
+    \item Leé {\bf atentamente} las consignas.
+    \item Entregá todo lo necesario para que yo pueda reproducir lo que hiciste si es un {\tt .zip} o {\tt .tar.gz} mejor. 
+    \item {\bf Comentá} tu código para que sea legible y comprensible para otre humane y para tu futuro tú.
+    \item El código (ya sea Jupyter Notebook u otro) debe ejecutar {\bf sin errores}. Eso debe ser así para las versiones de producción de {\tt Python}.
+    \item Tener en cuenta las dependencias del código. Anotarlas claramente en los comentarios o mejor aún utilizar las formas adecuadas de administrarlas para cada lenguaje ({\tt conda}, {\tt pip}, {\tt pkg}, etc..).
+    \item Sugiero utilizar un sistema de control de versiones (i.e. {\tt git}) para facilitar tu trabajo. Los Jupyter notebooks no se llevan bien con {\tt git}, sugiero utilizar {\tt jupytext} para facilitar ese proceso.
+    \item Si un ejercicio tiene uno o más asteriscos puede ser más complejo como es la tradición.
+\end{itemize}
+
+Me reservo el derecho de actualizar estas consideraciones durante el cursado, de ser así las agregaré donde corresponda y les haré saber.
+
+\vspace{1cm}
+\hfill Cristián
+
+\vfill
+{\tt v0.1.1}
+
+\end{document}

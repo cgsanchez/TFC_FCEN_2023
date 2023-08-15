@@ -1,0 +1,66 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs} 
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks = true,
+    allcolors = blue
+}
+
+\begin{document}
+\title{Taller de Física Computacional}
+
+\author{Guía 0: Precalentamiento ({\em allegro cantabile})}
+
+\date{\today}
+
+\maketitle
+
+\section*{Ejercicios}
+\vspace{0.5cm}
+\begin{enumerate}
+    \item[\bf Ejercicio 1] Dadas las siguientes expresiones para la función exponencial 
+    \begin{equation}
+    	e^x = \sum_0^\infty \frac{x^k}{k!}
+    \end{equation}
+    \vspace{2mm}
+    \begin{equation}
+    	e^x = \lim_{n \to \infty} \left( 1 + \frac{x}{n}\right)^n
+    \end{equation} 
+    \vspace{2mm}
+    \begin{equation}
+    e^{x}=1+\frac{x}{1-\frac{x}{x+2-\frac{2 x}{x+3-\frac{3 x}{x+4-\ddots}}}}	
+    \end{equation}
+
+    	Implementar una función que calcule el número $e$ con al menos 13 cifras correctas usando cada una de ellas.
+    	
+    \item[\bf Ejercicio 2]
+    	
+    	Implementar una función que dado un número entero positivo de por lo menos 128 bits devuelva una cadena de caracteres con su representación en base 3. Implementar también la inversa.
+    	
+    \item[\bf Ejercicio 3] 
+    
+    (*) Si aún no sitió fluir su líquido cerebroespinal extienda el código del ejercicio 3 para enteros positivos sin cota superior. 
+    
+    \item[\bf Ejercicio 4] 
+    
+    (**) Implementar una función que encuentre los primeros $n$ pares de primos gemelos. 
+    
+\end{enumerate}
+
+\begin{center}
+    $\clubsuit$~$\clubsuit$~$\clubsuit$
+  \end{center}
+
+
+
+
+\end{document}
